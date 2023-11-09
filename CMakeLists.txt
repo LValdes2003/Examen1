@@ -8,4 +8,5 @@ add_executable(Examen1 main.cpp
         funciones.h
         Estudiante.cpp
         Estudiante.h
-        RegistroAsistencia.h)
+        RegistroAsistencia.h
+        RegistroAsistencia.cpp)

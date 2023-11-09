@@ -36,3 +36,14 @@ int filtrarGrado(int arr[], double grado) {
         }
     }
 }
+
+bool yaExiste(char valor)
+{
+    Estudiante estudiante;
+    estudiante.materias;
+    for (int i = 0; i < 5; i++)
+        if (estudiante.materias[i] == valor)
+            return true;
+
+    return false;
+}

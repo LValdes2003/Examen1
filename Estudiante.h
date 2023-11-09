@@ -2,6 +2,8 @@
 // Created by Leonardo Valdes on 9/11/23.
 //
 #include <iostream>
+#include "funciones.h"
+
 #ifndef EXAMEN1_ESTUDIANTE_H
 #define EXAMEN1_ESTUDIANTE_H
 
@@ -21,10 +23,11 @@ public:
     void mostrar_materias() const{
         std::cout << "Materias: " << materias << std::endl;
     }
-    int registrar_materia(int n, int materiaNueva){
-            // Check if the array is already full
+    int registrar_materia(int n, char materiaNueva){
             if (n >= 5)
                 return n;
+            if (yaExiste(materiaNueva))
+                throw "Error: La materia ya existe";
 
             materias[n] = materiaNueva;
 
