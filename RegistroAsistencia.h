@@ -16,5 +16,4 @@ public:
     }
 };
 
-
 #endif //EXAMEN1_REGISTROASISTENCIA_H

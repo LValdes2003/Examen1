@@ -1,6 +1,9 @@
 //
 // Created by Leonardo Valdes on 9/11/23.
 //
+#include "Estudiante.h"
+
+using namespace std;
 
 int suma(int a, int b) {
     return a + b;
@@ -18,5 +21,18 @@ int dividir(int a, int b) {
     }
     else {
         return a / b;
+    }
+}
+
+int filtrarGrado(int arr[], double grado) {
+    Estudiante estudiante;
+    estudiante.nombre;
+    for (int i = 0; i < 100; i++) {
+        arr[i] = estudiante.grado;
+        }
+    for (int i = 0; i < 100; i++) {
+        if (arr[i] == grado) {
+            return arr[i];
+        }
     }
 }
