@@ -1,5 +1,6 @@
 #include <iostream>
 #include "funciones.h"
+#include "Estudiante.h"
 
 int main() {
     std::cout << "¿Cuales dos números quieres dividir?" << std::endl;

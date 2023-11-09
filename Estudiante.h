@@ -11,12 +11,26 @@ public:
     char* nombre;
     int edad;
     double grado;
-    void mostrar_info(){
+    void mostrar_info() const{
         std::cout << "Nombre: " << nombre << std::endl;
         std::cout << "Edad: " << edad << std::endl;
         std::cout << "Grado: " << grado << std::endl;
     }
-};
+    int materias[0];
 
+    void mostrar_materias() const{
+        std::cout << "Materias: " << materias << std::endl;
+    }
+    int registrar_materia(int n, int materiaNueva){
+            // Check if the array is already full
+            if (n >= 5)
+                return n;
+
+            materias[n] = materiaNueva;
+
+            return (n + 1);
+        }
+    }
+;
 
 #endif //EXAMEN1_ESTUDIANTE_H
