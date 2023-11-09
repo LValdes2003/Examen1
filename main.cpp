@@ -12,5 +12,8 @@ try {
 catch (const char* msg) {
     std::cout << msg << std::endl;
 }
+    int notas[5] = {10, 9, 8, 7, 6};
+    Estudiante estudiante;
+    estudiante.promedioCalificaciones(notas, 5);
     return 0;
 }

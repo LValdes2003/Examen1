@@ -16,8 +16,8 @@ public:
         std::cout << "Edad: " << edad << std::endl;
         std::cout << "Grado: " << grado << std::endl;
     }
-    int materias[0];
 
+    int materias[0];
     void mostrar_materias() const{
         std::cout << "Materias: " << materias << std::endl;
     }
@@ -29,6 +29,14 @@ public:
             materias[n] = materiaNueva;
 
             return (n + 1);
+        }
+
+        void promedioCalificaciones(int calificaciones[], int n){
+            double promedio = 0;
+            for (int i = 0; i < n; i++){
+                promedio += calificaciones[i];
+            }
+            std::cout << "El promedio es: " << promedio/n << std::endl;
         }
     }
 ;
