@@ -9,4 +9,6 @@ add_executable(Examen1 main.cpp
         Estudiante.cpp
         Estudiante.h
         RegistroAsistencia.h
-        RegistroAsistencia.cpp)
+        RegistroAsistencia.cpp
+        Profesor.h
+        Profesor.cpp)
