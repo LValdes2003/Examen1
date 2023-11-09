@@ -14,3 +14,11 @@ c. Un archivo que almacena las configuraciones del entorno de desarrollo
 En C++, las variables pueden referirse a datos o direcciones de memoria. En relación a esto, ¿qué son los punteros en la programación C++?
 
 b. Variables que almacenan la dirección de otra variable
+
+# Problemas de codificación
+Función suma en funciones.cpp
+Class Estudiante en Estudiante.h (https://www.w3schools.com/cpp/cpp_class_methods.asp)
+Función que intercambia valores en funciones.cpp
+Manejo de Excepciones en funciones.cpp y main.cpp
+Registro de materias en Estudiante.h (https://www.geeksforgeeks.org/inserting-elements-in-an-array-array-operations/)
+Promedio del Estudiante en Estudiante.h y main.cpp
