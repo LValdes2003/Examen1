@@ -22,3 +22,7 @@ Función que intercambia valores en funciones.cpp
 Manejo de Excepciones en funciones.cpp y main.cpp
 Registro de materias en Estudiante.h (https://www.geeksforgeeks.org/inserting-elements-in-an-array-array-operations/)
 Promedio del Estudiante en Estudiante.h y main.cpp
+Ausencias en RegistroAsistencia.h
+Filtrar por Grado en funciones.cpp
+Excepción personalizada en Estudiante.h
+Profesor en Profesor.h
